@@ -1,5 +1,8 @@
 body {
-	background-color: black;
+	background-image: url("../Images/space_wallpaper.jpg");
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p, h1, h2, h3, ol {
@@ -8,4 +11,78 @@ p, h1, h2, h3, ol {
 
 h1 {
 	text-align: center;
+}
+
+p {
+	text-align: justify;
+	margin-right: 425px;
+}
+ol {
+	margin-right: 425px;
+}
+.contents {
+	border-left: 6px solid blue;
+    background-color: lightblue;
+	padding: 10px;
+}
+#top_link {
+	border: 6px solid white;
+	padding: 10px;
+	color: white;
+}
+#introduction {
+	margin-right:1230px;
+}
+#solar_system {
+	margin-right: 1190px;
+}
+#the_sun {
+	margin-right: 1250px;
+}
+#planets {
+	margin-right: 1260px;
+}
+#asteroids {
+	margin-right: 1060px;
+}
+#other_galaxies {
+	margin-right: 1210px;
+}
+#big_bang {
+	margin-right: 1215px;
+}
+#future_in_space {
+	margin-right: 1205px;
+}
+#bibliography {
+	margin-right: 1220px;
+}
+#top_link {
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	margin-right: 1280px;
+}
+.bibliography_link {
+	background-color: lightblue;
+}
+/*unvisited link*/
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
