@@ -22,8 +22,11 @@ ol {
 }
 .contents {
 	border-left: 6px solid blue;
-    background-color: lightblue;
+    	background-color: lightblue;
 	padding: 10px;
+}
+.planets_type {
+	color:white;
 }
 #top_link {
 	border: 6px solid white;
