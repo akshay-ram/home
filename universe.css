@@ -1,32 +1,45 @@
 body {
-	background-image: url("space_wallpaper.jpg");
+	background-image: url("../Images/space_wallpaper.jpg");
 	background-attachment: fixed;
-    	background-repeat: no-repeat;
-    	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p, h1, h2, h3, ol {
 	color: white;
 }
 
+h2 {
+	font-family: Monospace;
+}
 h1 {
 	text-align: center;
+	font-family: "Arial Narrow", Fantasy;
+	font-size: 35px;
 }
 
+.credits {
+	font-size: small;
+}
 p {
 	text-align: justify;
 	margin-right: 425px;
+	font-family: "Courier New", "Arial Narrow", Sans-Serif;
 }
 ol {
 	margin-right: 425px;
 }
+#title_page {
+	font-family: "Agency FB", Sans-Serif;
+	font-size: 50px;
+}
 .contents {
 	border-left: 6px solid blue;
-    	background-color: lightblue;
+    background-color: #ADD8E6 ;
 	padding: 10px;
 }
-.planets_type {
-	background-color:white;
+.planets_type{
+	background-color: white;
 }
 #top_link {
 	border: 6px solid white;
@@ -34,31 +47,31 @@ ol {
 	color: white;
 }
 #introduction {
-	margin-right:1230px;
-}
-#solar_system {
 	margin-right: 1190px;
 }
+#solar_system {
+	margin-right: 1150px;
+}
 #the_sun {
-	margin-right: 1250px;
+	margin-right: 1235px;
 }
 #planets {
-	margin-right: 1260px;
+	margin-right: 1240px;
 }
 #asteroids {
-	margin-right: 1060px;
+	margin-right: 960px;
 }
 #other_galaxies {
-	margin-right: 1210px;
+	margin-right: 1170px;
 }
 #big_bang {
-	margin-right: 1215px;
+	margin-right: 1190px;
 }
 #future_in_space {
-	margin-right: 1205px;
+	margin-right: 1160px;
 }
 #bibliography {
-	margin-right: 1220px;
+	margin-right: 1190px;
 }
 #top_link {
 	background-color: white;
@@ -68,7 +81,7 @@ ol {
 	margin-right: 1280px;
 }
 .bibliography_link {
-	background-color: lightblue;
+	background-color:#ADD8E6 ;
 }
 /*unvisited link*/
 a:link {
